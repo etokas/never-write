@@ -1,0 +1,1022 @@
+# Logfile created on 2016-07-24 14:48:44 +0200 by logger.rb/41954
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 14:48:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [986c765d] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [986c765d] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [986c765d] Finished in 3.216 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [8a8176e6] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [8a8176e6] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [8a8176e6] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [d2139351] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [d2139351] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [d2139351] 	/usr/bin/env: 
+ DEBUG [d2139351] 	git
+ DEBUG [d2139351] 	: Aucun fichier ou dossier de ce type
+ DEBUG [d2139351] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 14:50:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [658d2a9d] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [658d2a9d] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [658d2a9d] Finished in 1.962 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [551c9ecc] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [551c9ecc] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [551c9ecc] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [499d341f] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [499d341f] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [499d341f] 	/usr/bin/env: 
+ DEBUG [499d341f] 	git
+ DEBUG [499d341f] 	: Aucun fichier ou dossier de ce type
+ DEBUG [499d341f] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 14:54:01 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5c8d2e02] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [5c8d2e02] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [5c8d2e02] Finished in 1.682 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [4bbdbd8f] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [4bbdbd8f] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [4bbdbd8f] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [11c0be11] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [11c0be11] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [11c0be11] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [11c0be11] 	589f255c1973c0cb706fca463a4e5a852153ffca	refs/heads/master
+  INFO [11c0be11] Finished in 2.342 seconds with exit status 0 (successful).
+  INFO [791280fd] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+ DEBUG [791280fd] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases )
+  INFO [791280fd] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [356cc185] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+ DEBUG [356cc185] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions )
+  INFO [356cc185] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [19956fe0] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+ DEBUG [19956fe0] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/app/config )
+  INFO [19956fe0] Finished in 0.005 seconds with exit status 0 (successful).
+ DEBUG [10d3cd1b] Running [ -f /var/www/never-write/shared/app/config/parameters.yml ] as root@192.168.1.62
+ DEBUG [10d3cd1b] Command: [ -f /var/www/never-write/shared/app/config/parameters.yml ]
+ DEBUG [10d3cd1b] Finished in 0.005 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 14:56:19 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a47cd5bc] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [a47cd5bc] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [a47cd5bc] Finished in 2.091 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [db572517] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [db572517] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [db572517] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [1829f0e0] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [1829f0e0] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [1829f0e0] 	589f255c1973c0cb706fca463a4e5a852153ffca	refs/heads/master
+  INFO [1829f0e0] Finished in 1.794 seconds with exit status 0 (successful).
+  INFO [e2551f18] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+ DEBUG [e2551f18] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases )
+  INFO [e2551f18] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [edc30622] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+ DEBUG [edc30622] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions )
+  INFO [edc30622] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [62220d4a] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+ DEBUG [62220d4a] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/app/config )
+  INFO [62220d4a] Finished in 0.005 seconds with exit status 0 (successful).
+ DEBUG [af4a6373] Running [ -f /var/www/never-write/shared/app/config/parameters.yml ] as root@192.168.1.62
+ DEBUG [af4a6373] Command: [ -f /var/www/never-write/shared/app/config/parameters.yml ]
+ DEBUG [af4a6373] Finished in 0.004 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 14:58:50 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [97e90134] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [97e90134] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [97e90134] Finished in 1.768 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [8565d2fa] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [8565d2fa] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [8565d2fa] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [e230131c] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [e230131c] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [e230131c] 	589f255c1973c0cb706fca463a4e5a852153ffca	refs/heads/master
+  INFO [e230131c] Finished in 1.768 seconds with exit status 0 (successful).
+  INFO [b594cb5d] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+ DEBUG [b594cb5d] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases )
+  INFO [b594cb5d] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [e15fd904] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+ DEBUG [e15fd904] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions )
+  INFO [e15fd904] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [f4d1d5ac] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+ DEBUG [f4d1d5ac] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/app/config )
+  INFO [f4d1d5ac] Finished in 0.005 seconds with exit status 0 (successful).
+ DEBUG [bbcbc558] Running [ -f /var/www/never-write/shared/app/config/parameters.yml ] as root@192.168.1.62
+ DEBUG [bbcbc558] Command: [ -f /var/www/never-write/shared/app/config/parameters.yml ]
+ DEBUG [bbcbc558] Finished in 0.004 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 14:59:54 +0200 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:05:23 +0200 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:05:26 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9e252855] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [9e252855] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [9e252855] Finished in 3.503 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [ad32f07f] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [ad32f07f] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [ad32f07f] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [3d9e59f7] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [3d9e59f7] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [3d9e59f7] 	589f255c1973c0cb706fca463a4e5a852153ffca	refs/heads/master
+  INFO [3d9e59f7] Finished in 1.864 seconds with exit status 0 (successful).
+  INFO [0fc80c51] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+ DEBUG [0fc80c51] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases )
+  INFO [0fc80c51] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [7646a170] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+ DEBUG [7646a170] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions )
+  INFO [7646a170] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [e577fc35] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+ DEBUG [e577fc35] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/app/config )
+  INFO [e577fc35] Finished in 0.005 seconds with exit status 0 (successful).
+ DEBUG [bc30b9be] Running [ -f /var/www/never-write/shared/app/config/parameters.yml ] as root@192.168.1.62
+ DEBUG [bc30b9be] Command: [ -f /var/www/never-write/shared/app/config/parameters.yml ]
+ DEBUG [bc30b9be] Finished in 0.004 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:15:48 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0237d98f] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+ DEBUG [0237d98f] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /tmp/never-write/ )
+  INFO [0237d98f] Finished in 6.715 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/never-write/git-ssh.sh 0.0%
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [fda6f933] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+ DEBUG [fda6f933] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh )
+  INFO [fda6f933] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [19d5a001] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+ DEBUG [19d5a001] Command: ( export SYMFONY_ENV="prod" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/never-write/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git )
+ DEBUG [19d5a001] 	589f255c1973c0cb706fca463a4e5a852153ffca	refs/heads/master
+  INFO [19d5a001] Finished in 1.756 seconds with exit status 0 (successful).
+  INFO [2016b302] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+ DEBUG [2016b302] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases )
+  INFO [2016b302] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [454ebf0f] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+ DEBUG [454ebf0f] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions )
+  INFO [454ebf0f] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [b8f30d0c] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+ DEBUG [b8f30d0c] Command: ( export SYMFONY_ENV="prod" ; /usr/bin/env mkdir -p /var/www/never-write/shared/app/config )
+  INFO [b8f30d0c] Finished in 0.008 seconds with exit status 0 (successful).
+ DEBUG [b12f4b31] Running [ -f /var/www/never-write/shared/app/config/parameters.yml ] as root@192.168.1.62
+ DEBUG [b12f4b31] Command: [ -f /var/www/never-write/shared/app/config/parameters.yml ]
+ DEBUG [b12f4b31] Finished in 0.006 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:16:42 +0200 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:26:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b0578b4c] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [b0578b4c] Finished in 2.588 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [60290f7f] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [60290f7f] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [2aa95d62] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [2aa95d62] Finished in 1.848 seconds with exit status 0 (successful).
+  INFO [182d253d] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [182d253d] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [4bcbe9fb] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [4bcbe9fb] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [569be438] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [569be438] Finished in 0.005 seconds with exit status 0 (successful).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:26:37 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [41ce81c1] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [41ce81c1] Finished in 6.665 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [404b43c3] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [404b43c3] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [7f3ad5d7] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [7f3ad5d7] Finished in 1.822 seconds with exit status 0 (successful).
+  INFO [372faa12] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [372faa12] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [3670eb25] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [3670eb25] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [913c5e08] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [913c5e08] Finished in 0.005 seconds with exit status 0 (successful).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:30:50 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [283f7955] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [283f7955] Finished in 2.056 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [9784bae5] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [9784bae5] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [c4e956a3] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [c4e956a3] Finished in 1.840 seconds with exit status 0 (successful).
+  INFO [e5759b2a] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [e5759b2a] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [67b15f07] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [67b15f07] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [4ef10021] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [4ef10021] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [efe1b0d5] Running /usr/bin/env git clone --mirror git@github.com:etokas/never-write.git /var/www/never-write/repo as root@192.168.1.62
+  INFO [efe1b0d5] Finished in 2.148 seconds with exit status 0 (successful).
+  INFO [907dc7cf] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [907dc7cf] Finished in 1.755 seconds with exit status 0 (successful).
+  INFO [9e240ce1] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133056 as root@192.168.1.62
+  INFO [9e240ce1] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [db2e616f] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724133056 as root@192.168.1.62
+  INFO [db2e616f] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [cc197444] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [cc197444] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [12acadb9] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133056/app/config as root@192.168.1.62
+  INFO [12acadb9] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [c91222f8] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724133056/app/config/parameters.yml as root@192.168.1.62
+  INFO [c91222f8] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [680a5715] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133056/var as root@192.168.1.62
+  INFO [680a5715] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [d7a32dba] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133056/var/logs as root@192.168.1.62
+  INFO [d7a32dba] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [3e3eec93] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133056/var/logs as root@192.168.1.62
+  INFO [3e3eec93] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [b9d4a997] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133056/var/sessions as root@192.168.1.62
+  INFO [b9d4a997] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [5db75154] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724133056/var/sessions as root@192.168.1.62
+  INFO [5db75154] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [fcd98914] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133056/var/cache as root@192.168.1.62
+  INFO [fcd98914] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [132b8ea9] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [132b8ea9] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [12fd098b] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133056/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:32:24 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e4f42aab] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [e4f42aab] Finished in 1.629 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [02a0bfd8] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [02a0bfd8] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [29d98550] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [29d98550] Finished in 1.802 seconds with exit status 0 (successful).
+  INFO [7a19b967] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [7a19b967] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [75b9115e] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [75b9115e] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [b7a20bc3] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [b7a20bc3] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [bf31d8a0] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [bf31d8a0] Finished in 1.751 seconds with exit status 0 (successful).
+  INFO [b1b55710] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133229 as root@192.168.1.62
+  INFO [b1b55710] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [02f9d7df] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724133229 as root@192.168.1.62
+  INFO [02f9d7df] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [4d671494] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [4d671494] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [ba0f88f5] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133229/app/config as root@192.168.1.62
+  INFO [ba0f88f5] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [6d8c6825] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724133229/app/config/parameters.yml as root@192.168.1.62
+  INFO [6d8c6825] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [0fd07e1c] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133229/var as root@192.168.1.62
+  INFO [0fd07e1c] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [9f1942de] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133229/var/logs as root@192.168.1.62
+  INFO [9f1942de] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [4728e783] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133229/var/logs as root@192.168.1.62
+  INFO [4728e783] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [2bcacd02] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133229/var/sessions as root@192.168.1.62
+  INFO [2bcacd02] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [907e3118] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724133229/var/sessions as root@192.168.1.62
+  INFO [907e3118] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [3ef94b10] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133229/var/cache as root@192.168.1.62
+  INFO [3ef94b10] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [ba48e479] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [ba48e479] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [0ed11b51] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133229/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:35:13 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d773d046] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [d773d046] Finished in 1.537 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [d6faad33] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [d6faad33] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [8828d765] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [8828d765] Finished in 1.843 seconds with exit status 0 (successful).
+  INFO [f2be5676] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [f2be5676] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [f9b35e40] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [f9b35e40] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [4efd0131] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [4efd0131] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [004adb05] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [004adb05] Finished in 1.772 seconds with exit status 0 (successful).
+  INFO [244efac7] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133518 as root@192.168.1.62
+  INFO [244efac7] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [1d339c32] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724133518 as root@192.168.1.62
+  INFO [1d339c32] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [c8bf6641] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [c8bf6641] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [5c252505] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133518/app/config as root@192.168.1.62
+  INFO [5c252505] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [65bdbcf9] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724133518/app/config/parameters.yml as root@192.168.1.62
+  INFO [65bdbcf9] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [5db86141] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133518/var as root@192.168.1.62
+  INFO [5db86141] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [6d3b77ab] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133518/var/logs as root@192.168.1.62
+  INFO [6d3b77ab] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [1f043666] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133518/var/logs as root@192.168.1.62
+  INFO [1f043666] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [974be388] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133518/var/sessions as root@192.168.1.62
+  INFO [974be388] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [04923ffe] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724133518/var/sessions as root@192.168.1.62
+  INFO [04923ffe] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [cd61b5d8] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133518/var/cache as root@192.168.1.62
+  INFO [cd61b5d8] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [a316c9db] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [a316c9db] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [c050eca3] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133518/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:38:13 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0de4028d] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [0de4028d] Finished in 1.658 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [e190d6b2] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [e190d6b2] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [e4cc081f] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [e4cc081f] Finished in 1.792 seconds with exit status 0 (successful).
+  INFO [20aa92bb] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [20aa92bb] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [7dd7b582] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [7dd7b582] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [98826c4d] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [98826c4d] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [015cd1e5] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [015cd1e5] Finished in 1.787 seconds with exit status 0 (successful).
+  INFO [edaf164e] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133818 as root@192.168.1.62
+  INFO [edaf164e] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [ec9cd9ab] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724133818 as root@192.168.1.62
+  INFO [ec9cd9ab] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [3713d712] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [3713d712] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [769d7f0b] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133818/app/config as root@192.168.1.62
+  INFO [769d7f0b] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [53bd4417] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724133818/app/config/parameters.yml as root@192.168.1.62
+  INFO [53bd4417] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [9ba81adf] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133818/var as root@192.168.1.62
+  INFO [9ba81adf] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [20a24c16] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133818/var/logs as root@192.168.1.62
+  INFO [20a24c16] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [f8bfac8e] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133818/var/logs as root@192.168.1.62
+  INFO [f8bfac8e] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [2176415c] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133818/var/sessions as root@192.168.1.62
+  INFO [2176415c] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [6e1dc3c0] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724133818/var/sessions as root@192.168.1.62
+  INFO [6e1dc3c0] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [0b625d1f] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133818/var/cache as root@192.168.1.62
+  INFO [0b625d1f] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [40d61686] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [40d61686] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [d26590db] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133818/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:38:41 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b45758b7] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [b45758b7] Finished in 2.393 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [fad23106] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [fad23106] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [e42c8bf6] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [e42c8bf6] Finished in 1.861 seconds with exit status 0 (successful).
+  INFO [44fd762f] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [44fd762f] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [129a8799] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [129a8799] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [b503ac34] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [b503ac34] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [aa265eef] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [aa265eef] Finished in 1.790 seconds with exit status 0 (successful).
+  INFO [66a6c88b] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133848 as root@192.168.1.62
+  INFO [66a6c88b] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [b4136fb4] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724133848 as root@192.168.1.62
+  INFO [b4136fb4] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [1a49a06a] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [1a49a06a] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [40e723ea] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133848/app/config as root@192.168.1.62
+  INFO [40e723ea] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [067ebc10] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724133848/app/config/parameters.yml as root@192.168.1.62
+  INFO [067ebc10] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [5e6c54b4] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724133848/var as root@192.168.1.62
+  INFO [5e6c54b4] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [e817ae5b] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133848/var/logs as root@192.168.1.62
+  INFO [e817ae5b] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [1a2e7fe6] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133848/var/logs as root@192.168.1.62
+  INFO [1a2e7fe6] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [bb314f53] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133848/var/sessions as root@192.168.1.62
+  INFO [bb314f53] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [93ce0c80] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724133848/var/sessions as root@192.168.1.62
+  INFO [93ce0c80] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [547b4207] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724133848/var/cache as root@192.168.1.62
+  INFO [547b4207] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [5fd17c15] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [5fd17c15] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [96db84e6] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724133848/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:39:58 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a7f4f044] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [a7f4f044] Finished in 2.261 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [1143aec8] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [1143aec8] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [cbbeff2d] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [cbbeff2d] Finished in 5.579 seconds with exit status 0 (successful).
+  INFO [d46fc1ca] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [d46fc1ca] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [021c7a75] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [021c7a75] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [40040a3d] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [40040a3d] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [082aef23] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [082aef23] Finished in 2.491 seconds with exit status 0 (successful).
+  INFO [4799935c] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134007 as root@192.168.1.62
+  INFO [4799935c] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [9624d812] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724134007 as root@192.168.1.62
+  INFO [9624d812] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [2f840211] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [2f840211] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [094dee30] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134007/app/config as root@192.168.1.62
+  INFO [094dee30] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [a04fc2f8] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724134007/app/config/parameters.yml as root@192.168.1.62
+  INFO [a04fc2f8] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [31366bdb] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134007/var as root@192.168.1.62
+  INFO [31366bdb] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [59487f57] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134007/var/logs as root@192.168.1.62
+  INFO [59487f57] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [7d66acca] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724134007/var/logs as root@192.168.1.62
+  INFO [7d66acca] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [20551dc1] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134007/var/sessions as root@192.168.1.62
+  INFO [20551dc1] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [26868adc] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724134007/var/sessions as root@192.168.1.62
+  INFO [26868adc] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [0b09e748] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134007/var/cache as root@192.168.1.62
+  INFO [0b09e748] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [13ba6b2d] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [13ba6b2d] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [643c3153] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724134007/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:43:24 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4a294bd1] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [4a294bd1] Finished in 2.363 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [dd8ddc74] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [dd8ddc74] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [ed4fd579] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [ed4fd579] Finished in 1.843 seconds with exit status 0 (successful).
+  INFO [574ff38a] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [574ff38a] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [61e0bf68] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [61e0bf68] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [0dacfcd8] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [0dacfcd8] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [cab9309b] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [cab9309b] Finished in 1.780 seconds with exit status 0 (successful).
+  INFO [03c82fb0] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134330 as root@192.168.1.62
+  INFO [03c82fb0] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [199dd1b7] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724134330 as root@192.168.1.62
+  INFO [199dd1b7] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [8d1df606] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [8d1df606] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [8ef5be64] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134330/app/config as root@192.168.1.62
+  INFO [8ef5be64] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [d287cae0] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724134330/app/config/parameters.yml as root@192.168.1.62
+  INFO [d287cae0] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [d67191d6] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134330/var as root@192.168.1.62
+  INFO [d67191d6] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [c95750ec] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134330/var/logs as root@192.168.1.62
+  INFO [c95750ec] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [9f2f79d8] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724134330/var/logs as root@192.168.1.62
+  INFO [9f2f79d8] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [c1ac332c] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134330/var/sessions as root@192.168.1.62
+  INFO [c1ac332c] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [3b615b30] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724134330/var/sessions as root@192.168.1.62
+  INFO [3b615b30] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [a2038a87] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134330/var/cache as root@192.168.1.62
+  INFO [a2038a87] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [2110f50e] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [2110f50e] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [241c9614] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724134330/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:47:03 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0c61595c] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [0c61595c] Finished in 1.668 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [2e2aceb1] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [2e2aceb1] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [efea1ba9] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [efea1ba9] Finished in 1.720 seconds with exit status 0 (successful).
+  INFO [b40dc1b3] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [b40dc1b3] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [4c6b4481] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [4c6b4481] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [c8b1b613] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [c8b1b613] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [f18e5f5f] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [f18e5f5f] Finished in 1.856 seconds with exit status 0 (successful).
+  INFO [5e15aac6] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134708 as root@192.168.1.62
+  INFO [5e15aac6] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [cc3a85f7] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724134708 as root@192.168.1.62
+  INFO [cc3a85f7] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [6d085dae] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [6d085dae] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [dbcd7299] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134708/app/config as root@192.168.1.62
+  INFO [dbcd7299] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [dbe4cc63] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724134708/app/config/parameters.yml as root@192.168.1.62
+  INFO [dbe4cc63] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [7a002f0d] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724134708/var as root@192.168.1.62
+  INFO [7a002f0d] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [6507657d] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134708/var/logs as root@192.168.1.62
+  INFO [6507657d] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [bc4fe1cc] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724134708/var/logs as root@192.168.1.62
+  INFO [bc4fe1cc] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [6d644084] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134708/var/sessions as root@192.168.1.62
+  INFO [6d644084] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [33028825] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724134708/var/sessions as root@192.168.1.62
+  INFO [33028825] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [a67ae77f] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724134708/var/cache as root@192.168.1.62
+  INFO [a67ae77f] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [3e148965] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [3e148965] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [3136dc02] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724134708/var/cache as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 15:50:51 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0180a4bc] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [0180a4bc] Finished in 2.286 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [bdb9d500] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [bdb9d500] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [c06c8c46] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [c06c8c46] Finished in 1.780 seconds with exit status 0 (successful).
+  INFO [c0cfbc67] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [c0cfbc67] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [dcb86847] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [dcb86847] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [64d034d6] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [64d034d6] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [3c6a6da9] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [3c6a6da9] Finished in 1.797 seconds with exit status 0 (successful).
+  INFO [66bebc32] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724135057 as root@192.168.1.62
+  INFO [66bebc32] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [c0ba1417] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724135057 as root@192.168.1.62
+  INFO [c0ba1417] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [46d4dd45] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [46d4dd45] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [13db94f9] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724135057/app/config as root@192.168.1.62
+  INFO [13db94f9] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [4dfec5bd] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724135057/app/config/parameters.yml as root@192.168.1.62
+  INFO [4dfec5bd] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [6be69c71] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724135057/var as root@192.168.1.62
+  INFO [6be69c71] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [06d141a3] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724135057/var/logs as root@192.168.1.62
+  INFO [06d141a3] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [ebaee221] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724135057/var/logs as root@192.168.1.62
+  INFO [ebaee221] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [7d5f3ec6] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724135057/var/sessions as root@192.168.1.62
+  INFO [7d5f3ec6] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [493fb072] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724135057/var/sessions as root@192.168.1.62
+  INFO [493fb072] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [bb6a9183] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724135057/var/cache as root@192.168.1.62
+  INFO [bb6a9183] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [8e3ebb2a] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [8e3ebb2a] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [0df94b2f] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724135057/var/cache as root@192.168.1.62
+  INFO [0df94b2f] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [d9d42f96] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724135057/var/cache as root@192.168.1.62
+  INFO [d9d42f96] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [bec7c271] Running /usr/bin/env composer install --no-dev --no-interaction --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:06:02 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [63ddedb5] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [63ddedb5] Finished in 1.799 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [2502f80d] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [2502f80d] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [56840e63] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [56840e63] Finished in 1.863 seconds with exit status 0 (successful).
+  INFO [97e289e5] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:07:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [df743075] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [df743075] Finished in 1.647 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [5c11bcf7] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [5c11bcf7] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [708a49d3] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [708a49d3] Finished in 2.169 seconds with exit status 0 (successful).
+  INFO [791688b1] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [791688b1] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [0d3c11c6] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [0d3c11c6] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [24edbbbb] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [24edbbbb] Finished in 0.005 seconds with exit status 0 (successful).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:08:08 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ea5b9a9e] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [ea5b9a9e] Finished in 1.552 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [75f3ec1c] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [75f3ec1c] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [44f6548e] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [44f6548e] Finished in 1.756 seconds with exit status 0 (successful).
+  INFO [a1f7d73f] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [a1f7d73f] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [b0882bd6] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [b0882bd6] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [7ecad5c8] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [7ecad5c8] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [57bbbb92] Running /usr/bin/env git clone --mirror git@github.com:etokas/never-write.git /var/www/never-write/repo as root@192.168.1.62
+  INFO [57bbbb92] Finished in 2.408 seconds with exit status 0 (successful).
+  INFO [7825d999] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [7825d999] Finished in 1.833 seconds with exit status 0 (successful).
+  INFO [a9c4e065] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724140812 as root@192.168.1.62
+  INFO [a9c4e065] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [465b2612] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724140812 as root@192.168.1.62
+  INFO [465b2612] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [c825facd] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [c825facd] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [234e2d2c] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724140812/app/config as root@192.168.1.62
+  INFO [234e2d2c] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [45753f82] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724140812/app/config/parameters.yml as root@192.168.1.62
+  INFO [45753f82] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [f12904af] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724140812/var as root@192.168.1.62
+  INFO [f12904af] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [124201c9] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724140812/var/logs as root@192.168.1.62
+  INFO [124201c9] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [1d110bbd] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724140812/var/logs as root@192.168.1.62
+  INFO [1d110bbd] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [88bc1c1b] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724140812/var/sessions as root@192.168.1.62
+  INFO [88bc1c1b] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [03e734f5] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724140812/var/sessions as root@192.168.1.62
+  INFO [03e734f5] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [040bc368] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724140812/var/cache as root@192.168.1.62
+  INFO [040bc368] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [e56dc9ec] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [e56dc9ec] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [ec343cc7] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724140812/var/cache as root@192.168.1.62
+  INFO [ec343cc7] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [94563fa1] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724140812/var/cache as root@192.168.1.62
+  INFO [94563fa1] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [2ca0b86a] Running /usr/bin/env composer install --no-dev --no-interaction --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:16:26 +0200 cap production deploy:create_symlink
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:16:43 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [7f07c7d4] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [7f07c7d4] Finished in 3.227 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [88029131] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [88029131] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [917539c6] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [917539c6] Finished in 1.790 seconds with exit status 0 (successful).
+  INFO [ec4d6b6b] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [ec4d6b6b] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [61fa7cad] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [61fa7cad] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [211299bc] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [211299bc] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:17:37 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b71a33e2] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [b71a33e2] Finished in 1.747 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [c2bd8099] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [c2bd8099] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [b61fa627] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [b61fa627] Finished in 1.765 seconds with exit status 0 (successful).
+  INFO [1b17cdcc] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [1b17cdcc] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [dd387a4a] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [dd387a4a] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [1ac5bb5a] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [1ac5bb5a] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [566ab34d] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [566ab34d] Finished in 1.765 seconds with exit status 0 (successful).
+  INFO [e1f11733] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724141742 as root@192.168.1.62
+  INFO [e1f11733] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [7311f62c] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724141742 as root@192.168.1.62
+  INFO [7311f62c] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [5320b6fd] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [5320b6fd] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [aaee1a4a] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724141742/app/config as root@192.168.1.62
+  INFO [aaee1a4a] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [453fa5ad] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724141742/app/config/parameters.yml as root@192.168.1.62
+  INFO [453fa5ad] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [5e4d54c0] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724141742/var as root@192.168.1.62
+  INFO [5e4d54c0] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [abf9587a] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724141742/var/logs as root@192.168.1.62
+  INFO [abf9587a] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [ab4be0e5] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724141742/var/logs as root@192.168.1.62
+  INFO [ab4be0e5] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [72c515e1] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724141742/var/sessions as root@192.168.1.62
+  INFO [72c515e1] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [5956ee35] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724141742/var/sessions as root@192.168.1.62
+  INFO [5956ee35] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [5366bc4f] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724141742/var/cache as root@192.168.1.62
+  INFO [5366bc4f] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [4fef9695] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [4fef9695] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [dd2b9541] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724141742/var/cache as root@192.168.1.62
+  INFO [dd2b9541] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [92568e70] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724141742/var/cache as root@192.168.1.62
+  INFO [92568e70] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [3abaf83a] Running /usr/bin/env composer install --no-dev --no-interaction --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:18:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bb55438a] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [bb55438a] Finished in 1.873 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [b1712835] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [b1712835] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [b413c2d0] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [b413c2d0] Finished in 1.769 seconds with exit status 0 (successful).
+  INFO [e8230727] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [e8230727] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [cfd04672] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [cfd04672] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [e917802e] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [e917802e] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [57e07e56] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [57e07e56] Finished in 1.802 seconds with exit status 0 (successful).
+  INFO [f45a5825] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724141828 as root@192.168.1.62
+  INFO [f45a5825] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [a7834c87] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724141828 as root@192.168.1.62
+  INFO [a7834c87] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [4a08f94b] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [4a08f94b] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [cd784d2e] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724141828/app/config as root@192.168.1.62
+  INFO [cd784d2e] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [6c1b8fd3] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724141828/app/config/parameters.yml as root@192.168.1.62
+  INFO [6c1b8fd3] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [07633ed5] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724141828/var as root@192.168.1.62
+  INFO [07633ed5] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [056b0943] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724141828/var/logs as root@192.168.1.62
+  INFO [056b0943] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [d10d470a] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724141828/var/logs as root@192.168.1.62
+  INFO [d10d470a] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [5f050ca1] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724141828/var/sessions as root@192.168.1.62
+  INFO [5f050ca1] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [a838437c] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724141828/var/sessions as root@192.168.1.62
+  INFO [a838437c] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [ad6abb35] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724141828/var/cache as root@192.168.1.62
+  INFO [ad6abb35] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [1f7d1720] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [1f7d1720] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [40ce4e3e] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724141828/var/cache as root@192.168.1.62
+  INFO [40ce4e3e] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [2d377e98] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724141828/var/cache as root@192.168.1.62
+  INFO [2d377e98] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [784d8f2b] Running /usr/local/bin/composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:20:40 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d941f5be] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [d941f5be] Finished in 1.738 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [5f6c2424] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [5f6c2424] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [249834c9] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [249834c9] Finished in 1.793 seconds with exit status 0 (successful).
+  INFO [19c03f30] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [19c03f30] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [c82f0a19] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [c82f0a19] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [3022f9e5] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [3022f9e5] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [a6ac9133] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [a6ac9133] Finished in 1.837 seconds with exit status 0 (successful).
+  INFO [ee41ca8c] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724142045 as root@192.168.1.62
+  INFO [ee41ca8c] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [8010fe86] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724142045 as root@192.168.1.62
+  INFO [8010fe86] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [212ad974] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [212ad974] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [1d6e2c71] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724142045/app/config as root@192.168.1.62
+  INFO [1d6e2c71] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [9bb0b829] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724142045/app/config/parameters.yml as root@192.168.1.62
+  INFO [9bb0b829] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [a445cde2] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724142045/var as root@192.168.1.62
+  INFO [a445cde2] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [9dc94a8e] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724142045/var/logs as root@192.168.1.62
+  INFO [9dc94a8e] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [189c69ba] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724142045/var/logs as root@192.168.1.62
+  INFO [189c69ba] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [57823a02] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724142045/var/sessions as root@192.168.1.62
+  INFO [57823a02] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [5843eda8] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724142045/var/sessions as root@192.168.1.62
+  INFO [5843eda8] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [15132939] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724142045/var/cache as root@192.168.1.62
+  INFO [15132939] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [0291883c] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [0291883c] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [2bb2c744] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724142045/var/cache as root@192.168.1.62
+  INFO [2bb2c744] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [04782ef5] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724142045/var/cache as root@192.168.1.62
+  INFO [04782ef5] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [05edeec1] Running /usr/local/bin/composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:25:35 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [224abbf9] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [224abbf9] Finished in 1.520 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [2f988fab] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [2f988fab] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [0727797b] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [0727797b] Finished in 1.766 seconds with exit status 0 (successful).
+  INFO [ad7cb57e] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [ad7cb57e] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [5404b491] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [5404b491] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [94ff4b9d] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [94ff4b9d] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [c84c77ce] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [c84c77ce] Finished in 1.845 seconds with exit status 0 (successful).
+  INFO [b3562858] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724142540 as root@192.168.1.62
+  INFO [b3562858] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [09bfcf9c] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724142540 as root@192.168.1.62
+  INFO [09bfcf9c] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [fdcc24e6] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [fdcc24e6] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [52529585] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724142540/app/config as root@192.168.1.62
+  INFO [52529585] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [470b3c96] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724142540/app/config/parameters.yml as root@192.168.1.62
+  INFO [470b3c96] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [d1e27d86] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724142540/var as root@192.168.1.62
+  INFO [d1e27d86] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [0e8f324c] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724142540/var/logs as root@192.168.1.62
+  INFO [0e8f324c] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [15360a11] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724142540/var/logs as root@192.168.1.62
+  INFO [15360a11] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [34513a10] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724142540/var/sessions as root@192.168.1.62
+  INFO [34513a10] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [437a0708] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724142540/var/sessions as root@192.168.1.62
+  INFO [437a0708] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [fb7d52b7] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724142540/var/cache as root@192.168.1.62
+  INFO [fb7d52b7] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [f6a88769] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [f6a88769] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [add86279] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724142540/var/cache as root@192.168.1.62
+  INFO [add86279] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [92d6502d] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724142540/var/cache as root@192.168.1.62
+  INFO [92d6502d] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [a5bc3cfd] Running /usr/bin/env composer install --no-interaction --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:37:42 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6c0dfa74] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [6c0dfa74] Finished in 1.437 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [61e0f835] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [61e0f835] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [20674572] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [20674572] Finished in 1.745 seconds with exit status 0 (successful).
+  INFO [536d5497] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [536d5497] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [435ad0b2] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [435ad0b2] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [a81e6251] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [a81e6251] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/never-write/repo
+  INFO [9e337e54] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [9e337e54] Finished in 1.800 seconds with exit status 0 (successful).
+  INFO [611601eb] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724143747 as root@192.168.1.62
+  INFO [611601eb] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [b3da8fe5] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724143747 as root@192.168.1.62
+  INFO [b3da8fe5] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [77e32aa8] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [77e32aa8] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [b3e853aa] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724143747/app/config as root@192.168.1.62
+  INFO [b3e853aa] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [b448e246] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724143747/app/config/parameters.yml as root@192.168.1.62
+  INFO [b448e246] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [99cf4243] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724143747/var as root@192.168.1.62
+  INFO [99cf4243] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [0264c72a] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724143747/var/logs as root@192.168.1.62
+  INFO [0264c72a] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [8ce36767] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724143747/var/logs as root@192.168.1.62
+  INFO [8ce36767] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [55fe9ee3] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724143747/var/sessions as root@192.168.1.62
+  INFO [55fe9ee3] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [eab05ca0] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724143747/var/sessions as root@192.168.1.62
+  INFO [eab05ca0] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [4a0cf567] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724143747/var/cache as root@192.168.1.62
+  INFO [4a0cf567] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [def3c720] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [def3c720] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [d9e6c123] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724143747/var/cache as root@192.168.1.62
+  INFO [d9e6c123] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [c16e162f] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724143747/var/cache as root@192.168.1.62
+  INFO [c16e162f] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [49beca74] Running /usr/bin/env composer install --no-interaction --optimize-autoloader as root@192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:38:35 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [285ed108] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [285ed108] Finished in 1.863 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [291e4b11] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [291e4b11] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [12ca1d64] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [12ca1d64] Finished in 1.820 seconds with exit status 0 (successful).
+  INFO [46d34558] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [46d34558] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [af0272b4] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [af0272b4] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [04c5cad8] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [04c5cad8] Finished in 0.005 seconds with exit status 0 (successful).
+ ERROR linked file /var/www/never-write/shared/app/config/parameters.yml does not exist on 192.168.1.62
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-24 16:39:16 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [416799fb] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [416799fb] Finished in 3.420 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [163963f8] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [163963f8] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [f4a9d23f] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
+  INFO [f4a9d23f] Finished in 1.722 seconds with exit status 0 (successful).
+  INFO [8947b04f] Running /usr/bin/env mkdir -p /var/www/never-write/shared /var/www/never-write/releases as root@192.168.1.62
+  INFO [8947b04f] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [50240115] Running /usr/bin/env mkdir -p /var/www/never-write/shared/var/logs /var/www/never-write/shared/var/sessions as root@192.168.1.62
+  INFO [50240115] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [64506558] Running /usr/bin/env mkdir -p /var/www/never-write/shared/app/config as root@192.168.1.62
+  INFO [64506558] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [2c7b65f0] Running /usr/bin/env git clone --mirror git@github.com:etokas/never-write.git /var/www/never-write/repo as root@192.168.1.62
+  INFO [2c7b65f0] Finished in 2.207 seconds with exit status 0 (successful).
+  INFO [bb310a63] Running /usr/bin/env git remote update --prune as root@192.168.1.62
+  INFO [bb310a63] Finished in 1.823 seconds with exit status 0 (successful).
+  INFO [dc3407fb] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724143922 as root@192.168.1.62
+  INFO [dc3407fb] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [e2644f9b] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/never-write/releases/20160724143922 as root@192.168.1.62
+  INFO [e2644f9b] Finished in 0.300 seconds with exit status 0 (successful).
+  INFO [6cf9a12a] Running /usr/bin/env echo "589f255c1973c0cb706fca463a4e5a852153ffca" >> REVISION as root@192.168.1.62
+  INFO [6cf9a12a] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [684de6c3] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724143922/app/config as root@192.168.1.62
+  INFO [684de6c3] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [be9dfbd9] Running /usr/bin/env ln -s /var/www/never-write/shared/app/config/parameters.yml /var/www/never-write/releases/20160724143922/app/config/parameters.yml as root@192.168.1.62
+  INFO [be9dfbd9] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [dc92eeb6] Running /usr/bin/env mkdir -p /var/www/never-write/releases/20160724143922/var as root@192.168.1.62
+  INFO [dc92eeb6] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [4f9bdeb3] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724143922/var/logs as root@192.168.1.62
+  INFO [4f9bdeb3] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [4419f377] Running /usr/bin/env ln -s /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724143922/var/logs as root@192.168.1.62
+  INFO [4419f377] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [f829f4c8] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724143922/var/sessions as root@192.168.1.62
+  INFO [f829f4c8] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [85cf727a] Running /usr/bin/env ln -s /var/www/never-write/shared/var/sessions /var/www/never-write/releases/20160724143922/var/sessions as root@192.168.1.62
+  INFO [85cf727a] Finished in 0.008 seconds with exit status 0 (successful).
+  INFO [1e4ae0a9] Running /usr/bin/env rm -rf /var/www/never-write/releases/20160724143922/var/cache as root@192.168.1.62
+  INFO [1e4ae0a9] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [ccd13f87] Running /usr/bin/env mkdir -pv var/cache as root@192.168.1.62
+  INFO [ccd13f87] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [d02812e8] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724143922/var/cache as root@192.168.1.62
+  INFO [d02812e8] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [89501288] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:root:rwX -m u:root:rwX /var/www/never-write/shared/var/logs /var/www/never-write/releases/20160724143922/var/cache as root@192.168.1.62
+  INFO [89501288] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO [a6be8455] Running /usr/bin/env composer install --no-interaction --optimize-autoloader as root@192.168.1.62
