@@ -1,0 +1,9 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+
+{% block content %}
+    <p>Bonjour {{ user.username }}</p>
+    {% if targetUrl %}
+    <p><a href="{{ targetUrl }}">Retour</a></p>
+    {% endif %}
+{% endblock content %}

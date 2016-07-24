@@ -1,0 +1,35 @@
+parameters:
+    manager_interface.class: AppBundle\Manager\ManagerInterface
+    note_manager.class: AppBundle\Manager\NoteManager
+    notebook_manager.class: AppBundle\Manager\NoteBookManager
+    user_listener.class: AppBundle\Listener\UserListener
+
+
+
+services:
+    fos_user.doctrine_registry:
+        alias: doctrine
+
+    manager_interface:
+        class: %manager_interface.class%
+
+    note_manager:
+        class: %note_manager.class%
+        arguments: ["@doctrine.orm.entity_manager", "@security.token_storage"]
+
+    notebook_manager:
+        class: %notebook_manager.class%
+        arguments: ["@doctrine.orm.entity_manager", "@security.token_storage"]
+
+
+    app.form.registration:
+        class: AppBundle\Form\RegistrationFormType
+        tags:
+            - { name: form.type, alias: app_user_registration }
+
+
+    user_listener:
+        class: %user_listener.class%
+        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+            - { name: kernel.event_subscriber }

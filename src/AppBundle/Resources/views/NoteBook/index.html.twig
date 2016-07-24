@@ -1,0 +1,36 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+
+
+{% block content %}
+    <h2>Mes notes</h2>
+
+    <a href="{{ path('notebook_new') }}">Ajouter une note-book</a>
+
+    {% for type, messages in app.session.flashbag.all() %}
+        {% for message in messages %}
+            <div class="alert-{{ type }}">
+                <p>{{ message }}</p><br>
+            </div>
+        {% endfor %}
+    {% endfor %}
+
+    <table>
+        <tr>
+            <th>Titre</th>
+            <th>Action</th>
+        </tr>
+        {% for notebook in notebooks %}
+            <tr>
+                <td>{{ notebook.name }}</td>
+                <td>
+                    <a href="{{ path('notebook_update', {id : notebook.id}) }}">Modifier</a>
+                    <a href="{{ path('notebook_view', {id : notebook.id}) }}">Voir</a>
+                    <a href="{{ path('notebook_confirm',{id : notebook.id}) }}">Supprimer</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+
+{% endblock content %}

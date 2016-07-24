@@ -1,0 +1,20 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+
+
+{% block content %}
+
+
+    <p> Voulez vous supprimer cette note ? {{ notebook.name }}
+
+        En supprimant vous effacer toutes les notes a l'interieur
+
+    <p>Que voulez vous faire ?</p>
+    </p>
+
+    <a href="{{ path('notebook_delete', {id : notebook.id}) }}">Supprimer</a>
+    <a href="{{ path('notebook_move_delete', {id: notebook.id}) }}">Supprimer et deplacer les notes vers le notebook par default</a>
+    <a href="{{ path('notebook_index') }}">Annuler</a>
+
+
+{% endblock content %}

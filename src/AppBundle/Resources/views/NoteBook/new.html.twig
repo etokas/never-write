@@ -1,0 +1,18 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+
+
+{% block content %}
+
+
+    {{ form_start(form) }}
+
+    {{ form_widget(form.name) }}
+    {{ form_widget(form._token) }}
+
+    <button type="submit">Créer</button>
+
+    {{ form_end(form) }}
+
+
+{% endblock content %}

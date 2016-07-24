@@ -1,0 +1,34 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+
+
+{% block content %}
+
+    <a href="{{ path('notebook_index') }}">Retour à l'acceuil</a>
+
+    <h2>{{ notebook.name }}</h2>
+
+    <h3>Notes diponibles</h3>
+
+    <table>
+        <tr>
+            <th>Titre</th>
+            <th>Contenu</th>
+            <th>Action</th>
+        </tr>
+        {% for note in notebook.notes %}
+            <tr>
+                <td>{{ note.title }}</td>
+                <td>{{ note.content }}</td>
+                <td>
+                    <a href="{{ path('note_update', {id : note.id, id_notebook : notebook.id}) }}">Modifier</a>
+                    <a href="{{ path('note_delete', {id : note.id, id_notebook : notebook.id}) }}">Supprimer</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <a href="{{ path('note_new', {id : notebook.id}) }}">Ajouter une note</a>
+
+
+{% endblock content %}

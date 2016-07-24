@@ -1,0 +1,18 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+
+
+{% block content %}
+
+
+    {{ form_start(form) }}
+
+    {{ form_widget(form.name, { attr : { disabled: required}}) }}
+    {{ form_widget(form._token) }}
+
+    <button type="submit">Modifier</button>
+
+    {{ form_end(form) }}
+
+
+{% endblock content %}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ asset('bundles/app/css/main.css') }}">
+</head>
+<body>
+
+{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+    <a href="{{ path('fos_user_security_logout') }}">Se deconnecter</a>
+{% endif %}
+
+{% block content %}
+
+
+{% endblock content %}
+<script src="{{ asset('bundles/app/js/main.js') }}"></script>
+</body>
+</html>
