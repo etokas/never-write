@@ -3,8 +3,30 @@
 
 
 {% block content %}
+    <div class="row">
+        <header class="text-center home">
+            <h2>L'interface pour la gesion de vos carnets</h2>
 
-    yoo
+            <hr>
+
+            <a href="{{ path('notebook_new') }}" role="button" class="btn btn-primary">Ajouter un carnet</a>
+        </header>
+
+        <header class="text-center intro">
+            <p>Avec cette application vous pouvez gerer des carnet </p>
+        </header>
 
 
+        <div class="text-center">
+            <h3>Carnets récent</h3>
+
+            <blockquote>
+                <p>Brazzaville</p>
+                <footer>Créer par - Sylva ETOKABEKA</footer>
+            </blockquote>
+            <hr>
+
+        </div>
+
+    </div>
 {% endblock content %}

@@ -1,0 +1,26 @@
+body {
+    background: #f5f8fa;
+}
+
+.home {
+    margin: 5px;
+}
+
+.home a {
+    margin-top: 20px;
+}
+
+.intro {
+    margin-top: 90px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    padding: 10px;
+}
+
+blockquote footer{
+    font-size: 12px;
+}
+blockquote p{
+    font-weight:bold;
+}

@@ -3,34 +3,41 @@
 
 
 {% block content %}
-    <h2>Mes notes</h2>
 
-    <a href="{{ path('notebook_new') }}">Ajouter une note-book</a>
+    <div class="row">
+        <h2>Mes carnets</h2>
 
-    {% for type, messages in app.session.flashbag.all() %}
-        {% for message in messages %}
-            <div class="alert-{{ type }}">
-                <p>{{ message }}</p><br>
-            </div>
+        <a href="{{ path('notebook_new') }}">Ajouter un carnet</a>
+
+        {% for type, messages in app.session.flashbag.all() %}
+            {% for message in messages %}
+                <div class="alert-{{ type }}">
+                    <p>{{ message }}</p><br>
+                </div>
+            {% endfor %}
         {% endfor %}
-    {% endfor %}
 
-    <table>
-        <tr>
-            <th>Titre</th>
-            <th>Action</th>
-        </tr>
-        {% for notebook in notebooks %}
+        <table class="table table-striped">
             <tr>
-                <td>{{ notebook.name }}</td>
-                <td>
-                    <a href="{{ path('notebook_update', {id : notebook.id}) }}">Modifier</a>
-                    <a href="{{ path('notebook_view', {id : notebook.id}) }}">Voir</a>
-                    <a href="{{ path('notebook_confirm',{id : notebook.id}) }}">Supprimer</a>
-                </td>
+                <th>Nom</th>
+                <th>Actions</th>
             </tr>
-        {% endfor %}
-    </table>
-
+            {% for notebook in notebooks %}
+                <tr>
+                    <td>{{ notebook.name }}</td>
+                    <td>
+                        {% if notebook.name == 'Default' %}
+                            <a role="button" class="btn btn-info" href="{{ path('notebook_view', {id : notebook.id}) }}">Voir</a>
+                            <a role="button" class="btn btn-danger" href="{{ path('notebook_confirm',{id : notebook.id}) }}">Supprimer</a>
+                        {% else %}
+                        <a role="button" class="btn btn-primary" href="{{ path('notebook_update', {id : notebook.id}) }}">Modifier</a>
+                            <a role="button" class="btn btn-info" href="{{ path('notebook_view', {id : notebook.id}) }}">Voir</a>
+                            <a role="button" class="btn btn-danger" href="{{ path('notebook_confirm',{id : notebook.id}) }}">Supprimer</a>
+                            {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
 
 {% endblock content %}

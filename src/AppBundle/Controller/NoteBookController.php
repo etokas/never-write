@@ -16,6 +16,7 @@ use AppBundle\Form\NoteType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
 /**
  * Class NoteBookController
@@ -39,6 +40,7 @@ class NoteBookController extends Controller
     /**
      * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/new", name="notebook_new")
+     * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
      */
     public function newAction(Request $request)
     {
