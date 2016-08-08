@@ -11,22 +11,29 @@
 
             <a href="{{ path('notebook_new') }}" role="button" class="btn btn-primary">Ajouter un carnet</a>
         </header>
+        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
 
-        <header class="text-center intro">
-            <p>Avec cette application vous pouvez gerer des carnet </p>
-        </header>
+            {% set notebooks = app.user.notebooks %}
+            <div class="text-center">
+            <h3>Carnets récemment créés</h3>
+                
+                <div class="recent">
+                    {% for notebook in notebooks %}
 
+                        <h4>{{ notebook.name }}</h4>
+                        <p>Créer par - {{ notebook.user.fullName() }}</p>
 
+                        {% if notebook.isAuthor(app.user) %}
+                            <a href="#">Modifier</a>
+                        {% endif %}
+
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
         <div class="text-center">
-            <h3>Carnets récent</h3>
-
-            <blockquote>
-                <p>Brazzaville</p>
-                <footer>Créer par - Sylva ETOKABEKA</footer>
-            </blockquote>
-            <hr>
-
+            <p>Connecter vous</p>
         </div>
-
+        {% endif %}
     </div>
 {% endblock content %}

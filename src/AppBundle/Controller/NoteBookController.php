@@ -22,6 +22,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
  * Class NoteBookController
  * @package AppBundle\Controller
  * @Route("/notebooks")
+ * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
  */
 class NoteBookController extends Controller
 {
@@ -40,7 +41,6 @@ class NoteBookController extends Controller
     /**
      * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/new", name="notebook_new")
-     * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
      */
     public function newAction(Request $request)
     {

@@ -8,9 +8,11 @@ use AppBundle\Form\NoteType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
 /**
  * @Route("/notes")
+ * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
  */
 class NoteController extends Controller 
 {

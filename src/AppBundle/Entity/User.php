@@ -150,4 +150,9 @@ class User extends BaseUser
     {
         return $this->notebooks;
     }
+
+    public function fullName() {
+
+        return sprintf('%s %s', $this->lastname, $this->name);
+    }
 }

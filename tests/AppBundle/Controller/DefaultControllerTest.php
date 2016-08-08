@@ -93,7 +93,6 @@ class DefaultControllerTest extends WebTestCase
             if ($notebook->getName() == NoteBook::DEFAULT_NOTEBOOK) {
 
                 $this->assertEquals(NoteBook::DEFAULT_NOTEBOOK, $notebook->getName());
-
                 break;
             }
         }
@@ -112,6 +111,26 @@ class DefaultControllerTest extends WebTestCase
         $notebook = $this->em->getRepository('AppBundle:NoteBook')->findAll();
 
         $this->assertEquals(1, count($notebook));
+    }
+
+    public function testIsAuthor(){
+
+        $user = new User();
+
+        $user->setName('Sylva');
+        $user->setLastname('Etokabeka');
+        $user->setEmail('etosylva@yahoo.fr');
+        $user->setPassword('password');
+        $user->setEnabled(true);
+        $notebook = new NoteBook();
+        $notebook->setName('Default');
+        $user->addNotebook($notebook);
+        $this->em->persist($user);
+        $this->em->flush();
+
+        $this->assertEquals($notebook->getUser()->getId(), $user->getId());
+        
+        $this->assertTrue($notebook->isAuthor($user));
     }
 
 

@@ -149,4 +149,11 @@ class NoteBook
     {
         return $this->user;
     }
+
+    public function isAuthor(User $user){
+
+        return $this->getUser()->getId() == $user->getId();
+    }
+
+
 }
