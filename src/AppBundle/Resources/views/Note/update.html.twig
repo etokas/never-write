@@ -4,16 +4,26 @@
 
 {% block content %}
 
+    <a href="{{ path('notebook_index') }}">Retour au carnet</a>
 
-    {{ form_start(form) }}
+    <h4> Ajouter une note </h4>
 
-    {{ form_widget(form.title) }}
-    {{ form_widget(form.content) }}
-    {{ form_widget(form._token) }}
+    <form method="post">
 
-    <button type="submit">Modifier</button>
+        <div class="form-group">
+            {{ form_widget(form.title, {attr : { class : 'form-control', placeholder : 'Titre'}}) }}
+        </div>
 
-    {{ form_end(form) }}
+        <div class="form-group">
+            {{ form_widget(form.content, {attr : { class : 'form-control', placeholder: 'Description'}}) }}
+        </div>
+
+        {{ form_widget(form._token) }}
+
+        <button class="btn btn-success" type="submit">Modifier</button>
+
+    </form>
+
 
 
 {% endblock content %}

@@ -1,6 +1,32 @@
-{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
-    {{ form_widget(form) }}
-    <div>
-        <input type="submit" value="S'enregistrer" />
+<div class="col-md-5 col-sm-6" id="form-content">
+    <div class="panel panel-default">
+        <div class="panel-body" id="block-form">
+            <h4>Créer votre compte</h4>
+
+            {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), }) }}
+            <div class="form-group">
+                {{ form_row(form.name, {attr : {class: 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.lastname, {attr : {class: 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.email, {attr : {class: 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.email, {attr : {class: 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.plainPassword.first, {attr : {class: 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.plainPassword.second, {attr : {class: 'form-control'}}) }}
+            </div>
+            <div>
+                <input type="submit" class="btn btn-success" value="S'enregistrer"/>
+            </div>
+            {{ form_end(form) }}
+        </div>
     </div>
-{{ form_end(form) }}
+
+</div>

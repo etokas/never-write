@@ -5,12 +5,18 @@
 {% block content %}
 
 
+    <a href="{{ path('notebook_index') }}">Retour aux carnets</a>
+
+    <h4>Modifier un carnet</h4>
+
     {{ form_start(form) }}
 
-    {{ form_widget(form.name, { attr : { disabled: required}}) }}
+    <div class="form-group">
+        {{ form_widget(form.name, {attr : {disabled: required,  class : 'form-control', placeholder: 'Nom'}}) }}
+    </div>
     {{ form_widget(form._token) }}
 
-    <button type="submit">Modifier</button>
+    <button class="btn btn-success" type="submit">Modifier</button>
 
     {{ form_end(form) }}
 

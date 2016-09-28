@@ -10,7 +10,7 @@
 
     <h3>Notes diponibles</h3>
 
-    <table>
+    <table class="table">
         <tr>
             <th>Titre</th>
             <th>Contenu</th>
@@ -28,7 +28,7 @@
         {% endfor %}
     </table>
 
-    <a href="{{ path('note_new', {id : notebook.id}) }}">Ajouter une note</a>
+    <a class="btn btn-primary" href="{{ path('note_new', {id : notebook.id}) }}">Ajouter une note</a>
 
 
 {% endblock content %}

@@ -10,6 +10,7 @@ namespace AppBundle\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Note
@@ -31,13 +32,14 @@ class NoteBook
     private $id;
 
     /**
-     * @ORM\OneToMany(targetEntity="Note", mappedBy="notebook", cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="Note", mappedBy="notebook", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=true)
      */
     private $notes;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="Le champs ne peut pas être vide")
      */
     private $name;
 

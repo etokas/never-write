@@ -4,7 +4,7 @@ lock '3.5.0'
 set :application, 'never-write'
 set :repo_url, 'git@github.com:etokas/never-write.git'
 
-set :deploy_to, '/var/www/never-write'
+set :deploy_to, '/mnt/www/never-write'
 
 # Default value for :scm is :git
 set :scm, :git

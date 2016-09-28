@@ -24,7 +24,7 @@
                         <p>Créer par - {{ notebook.user.fullName() }}</p>
 
                         {% if notebook.isAuthor(app.user) %}
-                            <a href="#">Modifier</a>
+                            <a href="{{ path('notebook_update', {id: notebook.id}) }}">Modifier</a>
                         {% endif %}
 
                     {% endfor %}
@@ -32,7 +32,8 @@
             </div>
         {% else %}
         <div class="text-center">
-            <p>Connecter vous</p>
+            <h5>Connecter vous pour voir les carnets recements créer</h5>
+            <a href="{{ path('fos_user_security_login') }}">Conexion</a>
         </div>
         {% endif %}
     </div>

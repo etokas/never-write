@@ -10,11 +10,10 @@
         En supprimant vous effacer toutes les notes a l'interieur
 
     <p>Que voulez vous faire ?</p>
-    </p>
 
-    <a href="{{ path('notebook_delete', {id : notebook.id}) }}">Supprimer</a>
-    <a href="{{ path('notebook_move_delete', {id: notebook.id}) }}">Supprimer et deplacer les notes vers le notebook par default</a>
-    <a href="{{ path('notebook_index') }}">Annuler</a>
+    <a class="btn btn-danger" role="button" href="{{ path('notebook_delete', {id : notebook.id}) }}">Supprimer</a>
+    <a class="btn btn-info" role="button" href="{{ path('notebook_move_delete', {id: notebook.id}) }}">Supprimer et deplacer les notes vers le notebook par default</a>
+    <a class="btn btn-primary" role="button" href="{{ path('notebook_index') }}">Annuler</a>
 
 
 {% endblock content %}

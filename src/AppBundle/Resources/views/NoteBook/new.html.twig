@@ -4,13 +4,18 @@
 
 {% block content %}
 
+    <a href="{{ path('notebook_index') }}">Retour aux carnets</a>
+
+    <h4>Ajouter un carnet</h4>
 
     {{ form_start(form) }}
 
-    {{ form_widget(form.name) }}
+    <div class="form-group">
+        {{ form_widget(form.name, {attr : { class : 'form-control', placeholder: 'Nom'}}) }}
+    </div>
     {{ form_widget(form._token) }}
 
-    <button type="submit">Créer</button>
+    <button class="btn btn-success" type="submit">Créer</button>
 
     {{ form_end(form) }}
 

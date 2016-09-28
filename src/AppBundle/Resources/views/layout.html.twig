@@ -20,8 +20,10 @@
         {% if is_granted('IS_AUTHENTICATED_FULLY') %}
             <li><a href="{{ path('notebook_index') }}">Mon compte</a></li>
             <li><a href="{{ path('fos_user_security_logout') }}">Se deconnecter</a></li>
+            <li class="navbar-right"><a href="{{ path('notebook_index') }}">Bonjour {{ app.user }}</a></li>
         {% else %}
             <li><a href="{{ path('fos_user_security_login') }}">Se connecter</a></li>
+            <li><a href="{{ path('fos_user_registration_register') }}">S'enregistrer</a></li>
         {% endif %}
     </ul>
 </nav>

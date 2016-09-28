@@ -1127,3 +1127,12 @@
   INFO [4ef960d3] Finished in 0.010 seconds with exit status 0 (successful).
   INFO [70cbbed2] Running /usr/bin/env echo "Branch master (at bd8a4e323ac25112289013fc1daff3aa5f5dc307) deployed as release 20160724144356 by sylva" >> /var/www/never-write/revisions.log as root@192.168.1.62
   INFO [70cbbed2] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-28 15:33:55 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c1afd5b5] Running /usr/bin/env mkdir -p /tmp/never-write/ as root@192.168.1.62
+  INFO [c1afd5b5] Finished in 5.678 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/never-write/git-ssh.sh 100.0%
+  INFO [331b9271] Running /usr/bin/env chmod +rx /tmp/never-write/git-ssh.sh as root@192.168.1.62
+  INFO [331b9271] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [bbc5571f] Running /usr/bin/env git ls-remote --heads git@github.com:etokas/never-write.git as root@192.168.1.62
